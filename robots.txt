@@ -1,0 +1,6 @@
+User=agent:*
+Allow:/
+Disallow: /private/
+Disallow: /admin/
+
+sitemap: https://beatriceoklu946.github.io/Beatrice-s-jewelry/sitemap.xml
