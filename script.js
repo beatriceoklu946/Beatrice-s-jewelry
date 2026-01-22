@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
           Please process my order and let me know the next steps.
         `.trim();
 
-       const mailtoLink = `beatriceoklu946@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+       const mailtoLink =`mailto:beatriceoklu946@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
      
         window.location.href = mailtoLink;
 
@@ -67,3 +67,4 @@ document.addEventListener('DOMContentLoaded', function () {
         thankYou.scrollIntoView({ behavior: "smooth" });
     });
  });      
+
